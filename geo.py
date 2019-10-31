@@ -4,8 +4,11 @@ import numpy as np
 #load the image
 img = cv2.imread('testpic.jpg',0)
 
-#Display the image
-cv2.show("Hello openCv", img)
+#Display the image and give it a name which is "hello opencv"
+cv2.imshow("Hello openCv", img)
+
+#Destroy the window after 1 sec
+cv2.waitKey(2000)
 
 
 """rows,cols = img.shape
