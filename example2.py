@@ -5,6 +5,7 @@ import cv2
 #here M loading the image and keeping it original colors 
 image = cv2.imread('testpic.jpg')
 
+# shape[dim] allows to retrieve the dimensions of our image (dim can be equal to 0, 1, or 2)
 height = image.shape[0] # the variable height takes the value of the height of our image
 width = image.shape[1] # same for the width
 
