@@ -1,14 +1,19 @@
 import cv2
 import numpy as np
 
-#load the image
+"""____Load and display an image____"""
+
+
+#load the image, 0 colors -> black nd wait
 img = cv2.imread('testpic.jpg',0)
 
 #Display the image and give it a name which is "hello opencv"
 cv2.imshow("Hello openCv", img)
 
-#Destroy the window after 1 sec
+#Destroy the window after 2 sec
 cv2.waitKey(2000)
+
+
 
 
 """rows,cols = img.shape
