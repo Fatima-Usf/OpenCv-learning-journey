@@ -3,6 +3,7 @@ import cv2
 """ we will draw geographic shapes and assign them colors"""
 
 image = cv2.imread('testpic.jpg')
+image = cv2.fit(image, 1)
 cropped = image[100:250, 200:350] #cropped take a part of our image
 
 image[100:200, 100:200] = (255,0,0) 

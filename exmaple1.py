@@ -5,7 +5,7 @@ import numpy as np
 
 
 #load the image, 0 colors -> black nd wait
-img = cv2.imread('testpic.jpg',0) 
+img = cv2.imread('testpic.jpg',0)
 
 #Display the image and give it a name which is "hello opencv"
 cv2.imshow("Hello openCv", img) #imshow creates a window containing our image
