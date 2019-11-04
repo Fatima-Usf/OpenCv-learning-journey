@@ -4,7 +4,6 @@ import numpy as np
 import cv2
 # here M loading the image with its original colors 
 image = cv2.imread('testpic.jpg')
-flipVertical = cv2.flip(image, 1)
 
 height = image.shape[0] # the variable height takes the value of the height of our image
 width = image.shape[1] # same for the width
